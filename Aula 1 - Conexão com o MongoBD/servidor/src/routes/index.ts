@@ -3,7 +3,7 @@ import user from "./user";
 
 const routes = Router();
 
-routes.post("/usuario", user);
+routes.use("/usuario", user);
 
 export default routes;
 

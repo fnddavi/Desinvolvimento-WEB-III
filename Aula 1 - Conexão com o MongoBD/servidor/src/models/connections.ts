@@ -1,7 +1,7 @@
 import mongoose from "mongoose";
 
 // A URI indica o IP, a porta e BD a ser conectado
-const uri = "mongodb://localhost:27017";
+const uri = "mongodb://localhost:27017/test";
 
 function conectar(){
     mongoose.connect(uri)

@@ -7,10 +7,11 @@ dotenv.config();
 const PORT = process.env.PORT;
 
 const app = express();
+app.use(express.json());
 
 conectar();
 
-app.listen(3001, function () {
+app.listen(PORT, function () {
   console.log(`Rodando na porta ${PORT}`);
 });
 
