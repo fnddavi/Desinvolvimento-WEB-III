@@ -12,7 +12,7 @@ class PrevisaoController {
       { explicitArray: false, trim: true, explicitRoot: false },
       (error: any, result: any) => {
         if (error) {
-          res.send({ message: error });
+          res.json({ message: error });
         } else {
           const { cidade } = result;
           res.locals = cidade instanceof Array ? cidade[0] : cidade;
@@ -31,9 +31,9 @@ class PrevisaoController {
       { explicitArray: false, trim: true, explicitRoot: false },
       (error: any, result: any) => {
         if (error) {
-          res.send({ message: error });
+          res.json({ message: error });
         } else {
-          res.send(result);
+          res.json(result);
         }
       }
     );
@@ -48,9 +48,9 @@ class PrevisaoController {
       { explicitArray: false, trim: true, explicitRoot: false },
       (error: any, result: any) => {
         if (error) {
-          res.send({ message: error });
+          res.json({ message: error });
         } else {
-          res.send(result);
+          res.json(result);
         }
       }
     );
@@ -65,9 +65,9 @@ class PrevisaoController {
       { explicitArray: false, trim: true, explicitRoot: false },
       (error: any, result: any) => {
         if (error) {
-          res.send({ message: error });
+          res.json({ message: error });
         } else {
-          res.send(result);
+          res.json(result);
         }
       }
     );
