@@ -1,7 +1,6 @@
 import { createContext, useEffect, useState } from "react";
 import { ContextProps, RegiaoProps } from "../types";
-import ibge from "../services/ibge";
-
+import ibge from "../services/Ibge";
 
 const ctx = createContext({} as ContextProps);
 
