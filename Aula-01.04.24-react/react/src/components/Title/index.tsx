@@ -6,4 +6,5 @@ export default function Title({ children }: any) {
 
 const Sld = styled.h4`
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+
 `;
