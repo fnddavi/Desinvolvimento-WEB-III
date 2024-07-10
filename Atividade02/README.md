@@ -5,7 +5,6 @@ O código faz requisições no Web Service do CPTEC para obter as previsões do 
 ### Instruções de uso
 Todos os pacotes necessários já estão no `package.json`.
 ```
-git clone https://github.com/arleysouza/previsao.git
 cd previsao
 npm i
 npm run dev
